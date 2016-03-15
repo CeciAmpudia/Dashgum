@@ -182,6 +182,9 @@ aside ul {
 	margin: 0 auto;
 }
 /* --------------- GALLERY ---------------*/
-.img-responsive {
-	margin-bottom: 25px;
+.mt {
+	margin-top: 20px;
+}
+.mt {
+	margin-bottom: 20px;
 }
