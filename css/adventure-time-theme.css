@@ -1,0 +1,187 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/*Escribe aqui tu codigo */
+#main-content {
+	padding: 15px 15px;
+	margin-left: 210px;
+}
+.black-bg {
+	background: #424A5D;
+}
+.bg-gray  {
+	background: #f2f2f2;
+}
+
+.bg-blue {
+	background: #68DFF0;
+}
+.text-white {
+	color: white;
+}
+.text-gray {
+	color: #989898;
+}
+.tetx-blue {
+	color: #68DFF0;
+}
+.font {
+	font-size: 25px;
+}
+.pt-25 {
+	padding: 25px !important;
+}
+.media {
+	border-bottom: 1px solid #DDD;
+}
+.active {
+	background: #A053A1;
+	width: 100%;
+	color: white;
+}
+/* --------------- NAVEGADOR ---------------*/
+header {
+	padding: 15px;
+	display: block;
+
+}
+.sidebar-toggle-box {
+	padding: 0 !important;
+	width: 45px !important;
+}
+.burger {
+	width: 55px !important;
+	font-size: 25px;
+	margin-top: 4px;
+}
+.burger:hover {
+	color: #A053A1;
+}
+.logo{
+	color: white;
+}
+.logo:hover {
+	color: #A053A1;
+	text-decoration: none;
+}
+.logout {
+	background: #A053A1;
+	border-radius: 5px;
+}
+.logout:hover {
+	background: white !important;
+	color: #A053A1;
+}
+aside {
+	float: left;
+	width: 210px;
+}
+aside a {
+	color: #AEB2B7;
+	text-decoration: none;
+}
+aside a:hover {
+	color: white;
+	text-decoration: none;
+}
+aside li {
+	padding: 20px;
+}
+aside li a {
+	padding: 20px;
+}
+aside li:hover {
+	background: #A053A1;
+	width: 100%;
+}
+aside ul li {
+	list-style-type: none;
+}
+aside ul {
+	padding: 5px;
+}
+/* -------------------- DASHBOARD -------------------- */
+.box1 {
+	padding: 15px;
+	text-align: center;
+	color: #989898;
+	border-bottom: 1px solid #989898;
+}
+
+.box1 span {
+	font-size: 50px;
+
+}
+.box0:hover .box1 {
+	border-bottom: 1px solid #ffffff;
+}
+
+.box0 p {
+	text-align: center;
+	font-size: 12px;
+	color: #f2f2f2;
+}
+
+.box0:hover p {
+	color: #ff865c;
+}
+
+.box0:hover {
+	background: #ffffff;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.showback, .bg-white {
+	padding: 10px;
+	border: 1px solid #DDD;
+	margin-top: 10px;
+	box-shadow: 0 2px 1px #DDD;
+	background: white;
+}
+.bg-purple {
+	color: white;
+	background: #A053A1;
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+	padding: 15px;
+}
+.bg-theme {
+	background: #68DFF0 !important;
+}
+/* ---------- LOGIN ----------*/
+.login-wrap {
+	padding: 20px;
+	background: white;
+}
+.form-login {
+	max-width: 330px;
+	margin: 0 auto;
+	padding: 105px 0;
+}
+.form-login h2 {
+	padding: 20px;
+	margin: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.registration {
+	margin: 20px 0;
+}
+.modal-content {
+	max-width: 60%;
+	margin: 0 auto;
+}
+/* --------------- GALLERY ---------------*/
+.img-responsive {
+	margin-bottom: 25px;
+}
